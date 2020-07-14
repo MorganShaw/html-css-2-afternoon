@@ -52,6 +52,19 @@ header {
     background-position: center;
 }
 
+.pages-right {
+    width: 100vw;
+    height: 100vh;
+    display: flex;   
+    background-size: cover;
+    background-position: center;
+}
+
+.text {
+    font-size: 13px;
+    text-align: left;
+}
+
 .main-page-content {
     height: 200px;
     width: 500px;
@@ -65,15 +78,30 @@ header {
 }
 
 .right-main-page-content {
-    height: 300px;
-    width: 500px;
+    height: 200px;
+    width: 600px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: 800px;
-    margin-bottom: 100px;
+    margin-left: 850px;
+    margin-top: 480px;
+    /* bottom: 0; */
+}
+
+.right-main-page-content2 {
+    height: 400px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 850px;
+    margin-top: 380px;
+    align-items: center;
+    /* bottom: 0; */
 }
 
 h1 {
@@ -82,7 +110,9 @@ h1 {
 }
 
 h3 {
+    font-size: 20px;
     margin-bottom: 30px;
+    text-align: left;
 }
 
 button {
@@ -93,6 +123,8 @@ button {
     outline: white;
     outline-style: solid;    
     border: none;
+    margin-left: 0;
+
 }
 
 
@@ -102,7 +134,14 @@ button {
     justify-content: space-between;
 }
 
+.right-side-h1 {
+    font-size: 45px;
+    margin-bottom: 50px;
+
+}
 .page-2 {
+    height: 100vh;
+    width: 100vw;
     background-image: url('https://cdn.discordapp.com/attachments/727541480243331142/732359443928580146/gps3_launch_desktop_02.jpg');
     flex-direction: column;
     justify-content: space-between;
@@ -114,21 +153,33 @@ button {
     justify-content: space-between;
 }
 
-.left-page-4 {
-    height: 100vh;
-    width; 40vw;
-    background-color: black;
-    display: flex;
-    left: 0;
-    /* put this in html. use background color black, img. */
-}
 
 .page-4 {
     display: flex;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+    justify-content: space-between;
+    background color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: cover;
+    background-position: center;
+}
+
+.left-page-4 {
+    height: 500px;
+    width; 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 50px;
+    margin-bottom: 100px;
 }
 
 .page-4-img {
-    height: vh;
+    height: 100vh;
     width: 60vw;
     right: 0;
     display: flex;
@@ -138,6 +189,12 @@ button {
     background-image: url('https://cdn.discordapp.com/attachments/727541480243331142/732359453847978074/home_moon.jpg');
     flex-direction: column;
     justify-content: space-between;
+    width: 100vw;
+    height: 100vh;
+    display: flex;   
+    background-size: cover;
+    background-position: center;
+    align-items: center;
 }
 
 .footer {
