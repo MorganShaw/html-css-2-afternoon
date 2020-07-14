@@ -1,0 +1,125 @@
+body {
+    width: 100vw;
+    height: 500vh;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    margin: 0;
+    position: absolute;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+/* header > div {
+    list-style-type: none;
+    max-width: 1000px;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; */
+/* } */
+
+
+header img {
+    width: 220px;
+    position: absolute;
+    display: flex;
+    /* flex-direction: row; */
+    /* display: block; */
+    /* position: relative; */
+    top: 4vh;
+    left: 5vw;
+    z-index: 10;
+    /* margin: 4vh auto auto 5vw; */
+}
+
+/* header ul {
+    /* height: 15vh; */
+    /* width: 60vw;
+    display: flex;
+    /* flex-direction: row; */
+    /* justify-content: space-between;
+} */ 
+  
+.nav-bar {
+    font-size: 13px;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: nowrap;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px auto;
+    z-index: 11;
+}
+
+.hamburger-icon {
+    height: 10px;
+    width: 10px;
+    color: white;
+    right: 0;
+    position: ;
+
+}
+
+.page-1 {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('https://www.spacex.com/static/images/backgrounds/starlinkstreak_desktop.webp');
+    position: relative;
+    background-size: cover;
+    background-position: center;
+}
+
+.page-2 {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('https://cdn.discordapp.com/attachments/727541480243331142/732359443928580146/gps3_launch_desktop_02.jpg');
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    
+    
+}
+
+.page-3 {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('https://www.spacex.com/static/images/backgrounds/starlinkstreak_desktop.webp');
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.page-4 {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('https://www.spacex.com/static/images/backgrounds/starlinkstreak_desktop.webp');
+    position: relative;
+    background-size: cover;
+    background-position: center;
+}
+
+.page-5 {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('https://www.spacex.com/static/images/backgrounds/starlinkstreak_desktop.webp');
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    
+    
+}
+
+.footer {
+
+}
