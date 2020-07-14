@@ -1,0 +1,11 @@
+body {
+    height: 500vh;
+    width: 100vw;
+}
+
+.bg-img {
+    background-size: cover;
+    background-position: center;
+
+}
+
