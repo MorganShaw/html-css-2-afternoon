@@ -57,7 +57,8 @@ header img {
     flex-wrap: nowrap;
     list-style-type: none;
     font-family: Arial, Helvetica, sans-serif;
-    margin: 10px auto;
+    margin: 0;
+    padding: 0;
     z-index: 11;
 }
 
@@ -66,7 +67,7 @@ header img {
     width: 10px;
     color: white;
     right: 0;
-    position: ;
+    position: right;
 
 }
 
@@ -93,7 +94,7 @@ header img {
 .page-3 {
     width: 100vw;
     height: 100vh;
-    background-image: url('https://www.spacex.com/static/images/backgrounds/starlinkstreak_desktop.webp');
+    background-image: url('https://cdn.discordapp.com/attachments/727541480243331142/732359453621485609/home_demo2.jpg');
     position: relative;
     background-size: cover;
     background-position: center;
@@ -103,7 +104,7 @@ header img {
 .page-4 {
     width: 100vw;
     height: 100vh;
-    background-image: url('https://www.spacex.com/static/images/backgrounds/starlinkstreak_desktop.webp');
+    background-image: url('https://www.spacex.com/static/images/content/iss_docking_sim.jpg');
     position: relative;
     background-size: cover;
     background-position: center;
@@ -112,7 +113,7 @@ header img {
 .page-5 {
     width: 100vw;
     height: 100vh;
-    background-image: url('https://www.spacex.com/static/images/backgrounds/starlinkstreak_desktop.webp');
+    background-image: url('https://cdn.discordapp.com/attachments/727541480243331142/732359453847978074/home_moon.jpg');
     position: relative;
     background-size: cover;
     background-position: center;
