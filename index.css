@@ -1,38 +1,36 @@
-/* body {
+body, html {
     width: 100vw;
     height: 100vh;
-} */
+} 
 
 header {
     display: flex;
     width: 100%;
-    height: 100px;
-    margin: 0;
-    margin-top: 20px;
+    height: 80px;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: center;
     text-align: center;
 }
 
 
- .logo {
+.logo {
     width: 220px;
     margin-left: 50px;
 }
   
 .nav-bar {
-    width: 55%;
+    width: 50%;
     display: flex;
-    justify-content: space-between;
-    padding: 0;
-    margin-right: 300px;
-    font-size: 13px;
+    justify-content: space-around;
+    margin-right: 200px;
 }
 
-.a-tag {
+.text {
     text-decoration: none;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    text-align: left;
 }
 
 .hamburger-icon {
@@ -47,50 +45,66 @@ header {
 .pages {
     width: 100vw;
     height: 100vh;
-    display: flex;   
     background-size: cover;
     background-position: center;
+    position: relative;
+    
 }
 
-.pages-right {
+/* #pages-right {
     width: 100vw;
     height: 100vh;
-    display: flex;   
-    background-size: cover;
+    /* display: flex;    */
+    /* background-size: cover;
     background-position: center;
-}
+}  */
 
-.text {
-    font-size: 13px;
-    text-align: left;
-}
 
 .main-page-content {
-    height: 200px;
-    width: 500px;
+    height: 30vh;
+    width: 600px;
+    position: absolute;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    color: white;
+    justify-content: left;
+    align-items: flex-start;
+    bottom: 75px;
+    text-align: left;
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: 50px;
-    margin-bottom: 100px;
+    color: white;
 }
 
-.right-main-page-content {
-    height: 200px;
+.right-content {
+    margin-left: 300px;
+    position: absolute;
+    right: 40px;
+
+}
+
+.left-content {
+    /* position: absolute; */
+    left: 40px;
+}
+
+.bottom-page {
+    /* position: absolute; */
+    bottom: 0px;
+}
+/* .right-main-page-content {
+    height: 100vh;
     width: 600px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    color: white;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: space-between; */
+    /* color: white;
+    position: absolute;
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 850px;
-    margin-top: 480px;
+    margin-top: 480px; */
     /* bottom: 0; */
-}
+/* } */
 
-.right-main-page-content2 {
+/* .right-main-page-content2 {
     height: 400px;
     width: 600px;
     display: flex;
@@ -101,100 +115,123 @@ header {
     margin-left: 850px;
     margin-top: 380px;
     align-items: center;
-    /* bottom: 0; */
-}
+    bottom: 0;
+} */
 
 h1 {
-    font-size: 45px;
-    margin-bottom: 50px;
+    font-size: 46px;
+    margin-bottom: 40px;
+    text-align: left;
+    /* position: absolute; */
+    vertical-align: bottom;
+    display: flex;
 }
 
 h3 {
-    font-size: 20px;
-    margin-bottom: 30px;
+    font-size: 18px;
+    margin-bottom: 15px;
     text-align: left;
+    /* position: absolute; */
+    vertical-align: bottom;
+    display: flex;
+
+
 }
 
+
+
 button {
-    height: 140px;
-    width: 185px;
+    height: 50px;
+    width: 160px;
     background-color: transparent;
     color: white;
     outline: white;
     outline-style: solid;    
     border: none;
-    margin-left: 0;
+    vertical-align: bottom;;
+    /* position: absolute; */
+    /* bottom: 0; */
+    /* margin-left: 0; */
 
 }
 
 
 .page-1 {
     background-image: url('https://www.spacex.com/static/images/backgrounds/starlinkstreak_desktop.webp');
-    flex-direction: column;
-    justify-content: space-between;
-}
+  
 
-.right-side-h1 {
+/* .right-side-h1 {
     font-size: 45px;
     margin-bottom: 50px;
 
-}
+} */
+
 .page-2 {
-    height: 100vh;
-    width: 100vw;
     background-image: url('https://cdn.discordapp.com/attachments/727541480243331142/732359443928580146/gps3_launch_desktop_02.jpg');
-    flex-direction: column;
-    justify-content: space-between;
+    /* flex-direction: column;
+    justify-content: space-between; */
 }
 
 .page-3 {
     background-image: url('https://cdn.discordapp.com/attachments/727541480243331142/732359453621485609/home_demo2.jpg');
-    flex-direction: column;
-    justify-content: space-between;
+    /* flex-direction: column;
+    justify-content: space-between; */
 }
 
 
 .page-4 {
-    display: flex;
+    /* display: flex; */
     height: 100vh;
-    width: 100vw;
-    flex-direction: column;
-    justify-content: space-between;
+    width: 40%;
+    position: relative;
+    left: 0;
+    /* flex-direction: column; 
+    justify-content: space-between; */
     background color: black;
-    font-family: Arial, Helvetica, sans-serif;
-    background-size: cover;
-    background-position: center;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    /* background-position: left; */
 }
+
+
+
+
 
 .left-page-4 {
     height: 500px;
-    width; 600px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    width: 100%;
+    /* display: flex; */
+    /* position: relative; */
+    /* flex-direction: column;
+    justify-content: space-between; */
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 50px;
     margin-bottom: 100px;
+    position: absolute;
 }
 
 .page-4-img {
-    height: 100vh;
-    width: 60vw;
+    height: 100%;
+    width: 60%;
+    position: absolute;
     right: 0;
-    display: flex;
+    /* display: flex; */
+    /* position: relat; */
+    /* right: 0; */
+    /* float: right; */
+
 }
 
 .page-5 {
     background-image: url('https://cdn.discordapp.com/attachments/727541480243331142/732359453847978074/home_moon.jpg');
-    flex-direction: column;
-    justify-content: space-between;
-    width: 100vw;
-    height: 100vh;
-    display: flex;   
-    background-size: cover;
-    background-position: center;
-    align-items: center;
+    /* flex-direction: column; */
+    /* justify-content: space-between; */
+    /* width: 100vw;
+    height: 100vh; */
+    /* display: flex;    */
+    /* background-size: cover;
+    background-position: center; */
+    /* align-items: center; */
 }
 
 .footer {
@@ -204,8 +241,6 @@ button {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 0;
-
 }
 
 .not-bolded {
@@ -221,7 +256,7 @@ button {
     width: 50%;
     height: 100px;
     background-color: black;
-    margin: 0;
+    /* margin: 0; */
     justify-content: space-between;
     text-align: center;
     font-size: 12px;
