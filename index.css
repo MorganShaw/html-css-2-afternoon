@@ -47,8 +47,10 @@ header {
     height: 100vh;
     background-size: cover;
     background-position: center;
-    position: relative;
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
 }
 
 /* #pages-right {
@@ -61,35 +63,35 @@ header {
 
 
 .main-page-content {
-    height: 30vh;
-    width: 600px;
-    position: absolute;
+    height: 60%;
+    width: 40%;
+    /* position: absolute; */
     display: flex;
     flex-direction: column;
-    justify-content: left;
+    justify-content: flex-end;
     align-items: flex-start;
-    bottom: 75px;
+    margin-left: 40px;
+    margin-bottom: 40px;
     text-align: left;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
+
 }
 
 .right-content {
-    margin-left: 300px;
+    /* justify-content: flex-end; */
+    align-items: flex-start;
+    margin-right: 40px;
+
+}
+
+
+/* .left-content {
     position: absolute;
-    right: 40px;
-
-}
-
-.left-content {
-    /* position: absolute; */
     left: 40px;
-}
+} */
 
-.bottom-page {
-    /* position: absolute; */
-    bottom: 0px;
-}
+
 /* .right-main-page-content {
     height: 100vh;
     width: 600px;
@@ -120,7 +122,7 @@ header {
 
 h1 {
     font-size: 46px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     text-align: left;
     /* position: absolute; */
     vertical-align: bottom;
@@ -148,7 +150,7 @@ button {
     outline: white;
     outline-style: solid;    
     border: none;
-    vertical-align: bottom;;
+    vertical-align: bottom;
     /* position: absolute; */
     /* bottom: 0; */
     /* margin-left: 0; */
@@ -158,8 +160,9 @@ button {
 
 .page-1 {
     background-image: url('https://www.spacex.com/static/images/backgrounds/starlinkstreak_desktop.webp');
+    justify-content: space-between;
   
-
+}
 /* .right-side-h1 {
     font-size: 45px;
     margin-bottom: 50px;
@@ -168,8 +171,7 @@ button {
 
 .page-2 {
     background-image: url('https://cdn.discordapp.com/attachments/727541480243331142/732359443928580146/gps3_launch_desktop_02.jpg');
-    /* flex-direction: column;
-    justify-content: space-between; */
+    align-items: flex-end;
 }
 
 .page-3 {
@@ -183,11 +185,10 @@ button {
     /* display: flex; */
     height: 100vh;
     width: 40%;
-    position: relative;
-    left: 0;
+   
     /* flex-direction: column; 
     justify-content: space-between; */
-    background color: black;
+    background-color: black;
     /* font-family: Arial, Helvetica, sans-serif; */
     /* background-position: left; */
 }
@@ -205,16 +206,13 @@ button {
     justify-content: space-between; */
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: 50px;
-    margin-bottom: 100px;
-    position: absolute;
+
+    /* position: absolute; */
 }
 
 .page-4-img {
     height: 100%;
     width: 60%;
-    position: absolute;
-    right: 0;
     /* display: flex; */
     /* position: relat; */
     /* right: 0; */
@@ -222,6 +220,10 @@ button {
 
 }
 
+.page-5-tall {
+    height: 60%;
+    justify-content: space-around;
+}
 .page-5 {
     background-image: url('https://cdn.discordapp.com/attachments/727541480243331142/732359453847978074/home_moon.jpg');
     /* flex-direction: column; */
@@ -231,7 +233,7 @@ button {
     /* display: flex;    */
     /* background-size: cover;
     background-position: center; */
-    /* align-items: center; */
+    align-items: flex-end;
 }
 
 .footer {
