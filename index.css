@@ -10,6 +10,7 @@ header {
     justify-content: space-between;
     align-items: center;
     text-align: center;
+    position: fixed;
 }
 
 
@@ -33,12 +34,16 @@ header {
     text-align: left;
 }
 
+.text-4 {
+    margin-bottom: 30px;
+}
+
 .hamburger-icon {
-    height: 20px;
-    width: 20px;
+    height: 15px;
+    width: 15px;
     margin-right: 30px;
-    background-color: transparent;
-    color: navy;
+    background-color: none;
+    color: white;
 
 }
 
@@ -182,10 +187,12 @@ button {
 
 
 .page-4 {
-    /* display: flex; */
+    display: flex;
+    flex-direction: row;
+    /* justify-content: flex-start; */
     height: 100vh;
-    width: 40%;
-   
+    width: 100vw;
+    
     /* flex-direction: column; 
     justify-content: space-between; */
     background-color: black;
@@ -198,21 +205,37 @@ button {
 
 
 .left-page-4 {
-    height: 500px;
-    width: 100%;
-    /* display: flex; */
-    /* position: relative; */
-    /* flex-direction: column;
-    justify-content: space-between; */
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    height: 570px;
+    width: 40%;
+    background-color: black;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+   
 
     /* position: absolute; */
 }
 
+.left-4-box {
+    display: flex;
+    width: 85%;
+    /* position: relative; */
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .page-4-img {
-    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    height: 100vh;
     width: 60%;
+    background-image: url("https://www.spacex.com/static/images/content/iss_docking_sim.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: right; */
+    /* background-image: no-repeat ; */
     /* display: flex; */
     /* position: relat; */
     /* right: 0; */
@@ -221,7 +244,7 @@ button {
 }
 
 .page-5-tall {
-    height: 60%;
+    height: 40%;
     justify-content: space-around;
 }
 .page-5 {
@@ -255,7 +278,7 @@ button {
 
 .footer-text {
     display: flex;
-    width: 50%;
+    width: 55%;
     height: 100px;
     background-color: black;
     /* margin: 0; */
